@@ -30,11 +30,29 @@ node -v
 ### 方式 A（推荐，最简单）
 在代码仓库页面点 **Code -> Download ZIP**，下载后解压。
 
+> 如果你看不到 **Download ZIP**：
+> 1. 先点一下绿色 **Code** 按钮右侧的小箭头；
+> 2. 在弹出菜单里往下找 **Local** 区域；
+> 3. 还是没有的话，直接在浏览器打开这个地址（把用户名和仓库名替换成你自己的）：
+>    `https://github.com/<用户名>/<仓库名>/archive/refs/heads/main.zip`
+>
+> 例如本仓库可用：
+> `https://github.com/mirrolious97/R8/archive/refs/heads/main.zip`
+
 ### 方式 B（会一点命令行）
 ```bash
 git clone <你的仓库地址>
 cd R8
 ```
+
+### 关于“GitHub 中文镜像”
+
+- GitHub **没有官方中文镜像站**。
+- 若只是下载慢，优先用下面更稳妥的方法：
+  1. 直接用上面的 `main.zip` 链接下载；
+  2. 使用科学网络后再下载；
+  3. 用 GitHub Desktop 克隆（有时比网页下载更稳定）。
+- 不建议把账号密码输入不明第三方“镜像站”，避免代码和账号泄露。
 
 ---
 
