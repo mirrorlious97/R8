@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>外刊阅读器 Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>外刊阅读器（段落翻译 + 词汇荧光标注）</h1>
+    <p class="hint">粘贴英文文章后，点击“生成阅读视图”。每段可单独查看 AI 翻译，六级/考研词会高亮。</p>
+
+    <textarea id="input" placeholder="在这里粘贴外刊原文（可多段）...">But it was unclear whether such a resolution on Iran would have the support to pass both chambers, with Republicans nearly unanimous in their support of Mr. Trump, and some Democrats signaling an unwillingness to back such a measure.
+
+After the U.S. strikes over the weekend, many Republicans praised Mr. Trump for targeting Iran, a major sponsor of terrorist groups in the region, including Hezbollah, the Houthis and Hamas.</textarea>
+
+    <button id="renderBtn">生成阅读视图</button>
+
+    <section id="reader" aria-live="polite"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
